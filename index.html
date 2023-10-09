@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up</title>
+    <!-- Include your CSS file for styling -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Include Firebase SDK and your main.js -->
+    <script src="https://www.gstatic.com/firebasejs/9.3.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.3.0/firebase-auth.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <form id="signup-form">
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button type="submit">Sign Up</button>
+    </form>
+    <button id="google-signup">Sign Up with Google</button>
+    <p id="signup-status"></p>
+</body>
+</html>
