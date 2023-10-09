@@ -1,3 +1,4 @@
+require('dotenv').config();
 // Initialize Firebase with your config (replace with your actual config)
 const firebaseConfig = {
     apiKey: "YOUR_API_KEY",
